@@ -146,49 +146,49 @@
 
 
             var Burger = parseInt(document.getElementById("bur").value);
-            var Burgerp = Burger * 80;
+            var BurgerP = Burger * 80;
             document.getElementById("burp").innerHTML ="Rs." + BurgerP;
             
             var ZingerBurger = parseInt(document.getElementById("zinbur").value);
             var ZingerBurgerP = ZingerBurger * 120;
-            documnt.getElementById(zinburP).innerHTML ="Rs." + ZingerBurgerP;
+            document.getElementById("zinburp").innerHTML ="Rs." + ZingerBurgerP;
 
             var Shawrama = parseInt(document.getElementById("sh").value);
             var shawramaP = Shawrama * 90;
-            document.getElementById("shP").innerHTML ="Rs. " + shawramaP
+            document.getElementById("shp").innerHTML ="Rs. " + shawramaP
 
             var ZingerShawrama = parseInt(document.getElementById("zinsh").value);
             var zingershawarmaP = ZingerShawrama  * 100;
-            document.getElementById("zinshP").innerHTML ="Rs. " + zingershawarmaP; 
+            document.getElementById("zinshp").innerHTML ="Rs. " + zingershawarmaP; 
 
             var Fries = parseInt(document.getElementById("fri").value);
             var FriesP = Fries * 50;
-            document.getElementById("friP").innerHTML ="Rs. "  + Fries;
+            document.getElementById("frip").innerHTML ="Rs. "  + FriesP;
 
             var Hotwings = parseInt(document.getElementById("hw").value);
             var HotwingsP = Hotwings * 350;
-            document.getElementById("hwP").innerHTML ="Rs. "  + Hotwings;
+            document.getElementById("hwp").innerHTML ="Rs. "  + HotwingsP;
 
             var SmallPizza = parseInt(document.getElementById("sp").value);
             var  SmallPizzaP = SmallPizza * 250; 
-            document.getElementById("spP").innerHTML ="Rs." +  SmallPizza;
+            document.getElementById("spp").innerHTML ="Rs." +  SmallPizzaP;
 
             var MediumPizza = parseInt(document.getElementById("mp").value);
             var MediumPizzaP = MediumPizza * 450; 
-            document.getElementById("mpp").innerHTML ="Rs." + MediumPizza;
+            document.getElementById("mpp").innerHTML ="Rs." + MediumPizzaP;
 
             var LargePizza = parseInt(document.getElementById("lp").value);
             var LargePizzaP =LargePizza  * 850; 
-            document.getElementById("lpp").innerHTML ="Rs." + LargePizza ;
+            document.getElementById("lpp").innerHTML ="Rs." + LargePizzaP;
 
             var Coldrink = parseInt(document.getElementById("cd").value);
             var ColdrinkP =Coldrink  *120; 
-            document.getElementById("cdp").innerHTML ="Rs." +  Coldrink;
+            document.getElementById("cdp").innerHTML ="Rs." +  ColdrinkP;
 
             var total = Sandwich + Burger + ZingerBurger + Shawrama + ZingerShawrama + Fries
              + SmallPizza + MediumPizza  + LargePizza + Coldrink + Hotwings ;
 
-             var totalAD = SandwichP + BurgerP + ZingerBurgerP + ShawramaP + ZingerShawramaP + FriesP
+             var totalP = SandwichP + BurgerP + ZingerBurgerP + shawramaP + zingershawarmaP + FriesP
              + SmallPizzaP + MediumPizzaP  + LargePizzaP + ColdrinkP + HotwingsP ;
             document.getElementById("total").innerHTML = total;
             document.getElementById("totalA").innerHTML = "Rs." + totalP;
